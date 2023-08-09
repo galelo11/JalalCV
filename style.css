@@ -1,0 +1,115 @@
+/* Reset default styling */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+section {
+    padding: 40px 0;
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.MiniSection {
+    padding: 20px 0;
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+}
+
+.skill {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.skill img {
+    width: 60px;
+    height: 60px;
+}
+
+/* Style the Read More button */
+#read-more-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#read-more-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Style the About Me section */
+#about, #skills {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#short-about, #full-about {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#full-about {
+    margin-top: 20px;
+}
+
+/* Style the Contact section in the footer */
+footer #contact {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-top: 1px solid #ccc;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.contact-info {
+    margin-top: 10px;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
