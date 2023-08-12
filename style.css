@@ -113,3 +113,16 @@ footer #contact {
 .contact-info a:hover {
     text-decoration: underline;
 }
+
+#Skill1,#Skill2,#Skill3 {
+   
+    text-align: left;
+}
+.sub-category  {
+    margin-top: 20px;
+}
+
+.UnderConstruction{
+    width: 180px;
+    height: 180px; 
+}
