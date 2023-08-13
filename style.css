@@ -46,11 +46,16 @@ h2 {
 .skills-container {
     display: flex;
     justify-content: center;
+
 }
 
 .skill {
     margin: 0 20px;
     text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+   
+    text-decoration: underline;
 }
 
 .skill img {
@@ -114,7 +119,7 @@ footer #contact {
     text-decoration: underline;
 }
 
-#Skill1,#Skill2,#Skill3,#Skill4 {
+#Skill1,#Skill2,#Skill3,#Skill4,#short-about,#full-about {
    
     text-align: left;
 }
