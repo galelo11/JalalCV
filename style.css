@@ -131,3 +131,12 @@ footer #contact {
     width: 180px;
     height: 180px; 
 }
+
+@media only screen and (max-width: 600px) {
+
+     .skill
+     {
+        margin: 0 5px;
+        font-size: small;
+     }
+  }
